@@ -2,5 +2,6 @@
     <string name="app_name">TabViewSample</string>
 
     <string name="kotlin">Kotlin</string>
+    <string name="swift">Swift</string>
     <string name="java">Java</string>
 </resources>

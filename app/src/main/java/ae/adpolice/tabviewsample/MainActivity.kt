@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun CustomTabView(modifier: Modifier = Modifier, selectedItem: (Int)->Unit)
 {
-    val list = listOf(stringResource(id = R.string.kotlin), stringResource(id = R.string.java))
+    val list = listOf(stringResource(id = R.string.kotlin), stringResource(id = R.string.swift), stringResource(id = R.string.java))
     var selectedIndex by remember { mutableStateOf(0) }
     Box(modifier = modifier) {
         TabRow(selectedTabIndex = selectedIndex,
